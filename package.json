@@ -1,25 +1,33 @@
 {
-   "name" : "graphviz",
-   "version" : "0.0.8",
-   "author": "Gregoire Lejeune <gregoire.lejeune@free.fr> (http://algorithmique.net/)",
-   "description" : "Node.js interface to the GraphViz graphing tool",
-   "homepage" : "http://algorithmique.net/",
-   "contributors" : [ 
-      "Gregoire Lejeune (http://algorithmique.net)",
-      "Mathieu Ravaux (http://mathieuravaux.com)"
-   ],
-   "repository" : { 
-      "type" : "git",
-      "url" : "http://github.com/glejeune/node-graphviz.git"
-   },
-   "keywords" : ["graphviz", "dot"],
-   "directories" : { "lib" : "./lib" },
-   "main" : "lib/graphviz",
-   "engines": {
-      "node": ">=0.6.8"
-   },
-   "dependencies": {
-      "temp": "~0.4.0"
-   },
-   "devDependencies": {}
+  "author": {
+    "name": "hashcacher",
+    "email": "gregoryguterman@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/hashcacher/node-graphviz/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "temp": "~0.4.0"
+  },
+  "deprecated": false,
+  "description": "Node.js interface to the GraphViz graphing tool",
+  "devDependencies": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=0.6.8"
+  },
+  "keywords": [
+    "graphviz",
+    "dot"
+  ],
+  "main": "lib/graphviz",
+  "name": "graphviz",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hashcacher/node-graphviz.git"
+  },
+  "version": "0.0.8"
 }
